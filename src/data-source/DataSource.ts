@@ -234,6 +234,12 @@ export class DataSource {
 
         return this
     }
+    /**
+     * Get current DataSource options.
+     */
+    getOptions(): DataSourceOptions {
+        return this.options;
+    }
 
     /**
      * Performs connection to the database.
